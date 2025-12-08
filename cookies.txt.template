@@ -1,0 +1,14 @@
+# Copy this file to cookies.txt and paste your cookies here
+# 
+# IMPORTANT: Never commit cookies.txt to version control!
+#
+# Format: Paste your cookies as a Python dictionary
+#
+# Example:
+cookies = {
+    'X-APPLE-WEBAUTH-USER': '"v=1:s=0:d=YOUR_DSID_HERE"',
+    'X-APPLE-WEBAUTH-TOKEN': '"v=2:t=YOUR_TOKEN_HERE"',
+    'X-APPLE-DS-WEB-SESSION-TOKEN': '"YOUR_SESSION_TOKEN_HERE"',
+    # ... add all your cookies here
+}
+
