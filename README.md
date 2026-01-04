@@ -50,7 +50,7 @@ cookies = {
 }
 ```
 
-**How to get cookies:** See the [video tutorial](#-video-tutorial) above or follow these steps:
+**How to get cookies + FULL SCRIPT TUTORIAL:** See the [video tutorial](https://youtu.be/I_if9q9gx6I) above or follow these steps:
 1. Log in to https://www.icloud.com
 2. Open Developer Tools (F12)
 3. Go to Application/Storage tab → Cookies → `https://www.icloud.com`
@@ -158,3 +158,4 @@ Having issues or questions? Please open an issue on GitHub.
 
 * [Rich](https://github.com/Textualize/rich) - Beautiful terminal formatting
 * [Requests](https://requests.readthedocs.io/) - HTTP library for Python
+
