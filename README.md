@@ -4,11 +4,11 @@ A Python script that manages Apple iCloud Hide My Email addresses. List, deactiv
 
 ## 🎥 Video Tutorial
 
-**How to Extract iCloud Cookies:** [Watch the tutorial](https://youtu.be/BwYwTqVAgCA)
+**How to Extract iCloud Cookies:** [Watch the tutorial](https://youtu.be/I_if9q9gx6I)
 
-[![How to Extract iCloud Cookies](https://img.youtube.com/vi/BwYwTqVAgCA/0.jpg)](https://youtu.be/BwYwTqVAgCA)
+[![Full Tutorial](https://img.youtube.com/vi/I_if9q9gx6I/0.jpg)](https://youtu.be/I_if9q9gx6I)
 
-This video shows you step-by-step how to extract iCloud cookies from your browser.
+
 
 ## Quick Start
 
@@ -158,4 +158,5 @@ Having issues or questions? Please open an issue on GitHub.
 
 * [Rich](https://github.com/Textualize/rich) - Beautiful terminal formatting
 * [Requests](https://requests.readthedocs.io/) - HTTP library for Python
+
 
