@@ -2,9 +2,8 @@
 
 A Python script that manages Apple iCloud Hide My Email addresses. List, deactivate, and delete Hide My Email entries with a beautiful console interface.
 
-## 🎥 Video Tutorial
+## 🎥 Video Tutorial - Full Guide
 
-[![Full Tutorial](https://img.youtube.com/vi/I_if9q9gx6I/0.jpg)](https://youtu.be/I_if9q9gx6I)
 [![Full Tutorial](https://img.youtube.com/vi/I_if9q9gx6I/0.jpg)](https://youtu.be/I_if9q9gx6I)
 
 
@@ -157,6 +156,7 @@ Having issues or questions? Please open an issue on GitHub.
 
 * [Rich](https://github.com/Textualize/rich) - Beautiful terminal formatting
 * [Requests](https://requests.readthedocs.io/) - HTTP library for Python
+
 
 
 
