@@ -8,9 +8,21 @@
 
 ---
 
+## 📦 Star History
+
+<a href="https://www.star-history.com/?repos=not-knope/Hide-My-Email-iCloud-Manager&type=date&legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=not-knope/Hide-My-Email-iCloud-Manager&type=date&theme=dark&legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=not-knope/Hide-My-Email-iCloud-Manager&type=date&legend=top-left" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=not-knope/Hide-My-Email-iCloud-Manager&type=date&legend=top-left" />
+  </picture>
+</a>
+
+---
+
 ## 🎥 Video Tutorial
 
-[![Full Tutorial](https://img.youtube.com/vi/I_if9q9gx6I/0.jpg)](https://youtu.be/I_if9q9gx6I)
+[![Full Tutorial](https://i.ibb.co/39Y6Sp0z/git.png)](https://youtu.be/I_if9q9gx6I)
 
 *Click the thumbnail to watch the full setup and usage guide.*
 
@@ -166,18 +178,6 @@ Contributions are welcome!
 - 🐛 [Report a bug](https://github.com/not-knope/Hide-My-Email-iCloud-Manager/issues/new)
 - 💡 [Suggest a feature](https://github.com/not-knope/Hide-My-Email-iCloud-Manager/issues/new)
 - 🔧 Open a pull request
-
----
-
-## 📦 Star History
-
-<a href="https://www.star-history.com/?repos=not-knope/Hide-My-Email-iCloud-Manager&type=date&legend=top-left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=not-knope/Hide-My-Email-iCloud-Manager&type=date&theme=dark&legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=not-knope/Hide-My-Email-iCloud-Manager&type=date&legend=top-left" />
-    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=not-knope/Hide-My-Email-iCloud-Manager&type=date&legend=top-left" />
-  </picture>
-</a>
 
 ---
 
