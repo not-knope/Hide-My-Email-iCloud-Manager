@@ -22,7 +22,7 @@
 
 ## 🎥 Video Tutorial
 
-[![Full Tutorial](https://i.ibb.co/39Y6Sp0z/git.png)](https://youtu.be/I_if9q9gx6I)
+[![Full Tutorial](https://i.imgur.com/RjRPSNf.jpeg)](https://youtu.be/I_if9q9gx6I)
 
 *Click the thumbnail to watch the full setup and usage guide.*
 
