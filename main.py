@@ -1,3 +1,4 @@
+import argparse
 import json
 import time
 from typing import Dict, List
@@ -158,10 +159,29 @@ def delete_hme(cookies: Dict[str, str], anon_id: str):
 
 
 # -------------------------------------------------------
+# CLI
+# -------------------------------------------------------
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Manage Apple iCloud Hide My Email addresses from the command line."
+    )
+    parser.add_argument(
+        "--export-only",
+        "--list-only",
+        "--toggle",
+        action="store_true",
+        dest="export_only",
+        help="List and export emails without deactivating or deleting them",
+    )
+    return parser.parse_args()
+
+
+# -------------------------------------------------------
 # MAIN SCRIPT
 # -------------------------------------------------------
 
-def main():
+def main(export_only: bool = False):
 
     console.print("[bold green]🚀 Hide My Email Manager[/]")
 
@@ -196,6 +216,12 @@ def main():
         table.add_row(h["anonymousId"], h["hme"], str(h["isActive"]))
 
     console.print(table)
+
+    if export_only:
+        console.print(
+            "\n[bold green]Export-only mode — skipping deactivation and deletion.[/]"
+        )
+        return
 
     console.print("\n[bold red]Starting deactivation + deletion...[/]")
 
@@ -232,4 +258,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    main(export_only=args.export_only)

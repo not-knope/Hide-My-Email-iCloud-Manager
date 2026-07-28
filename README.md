@@ -36,6 +36,7 @@
 | 🛑 **Deactivate** | Deactivate active aliases in bulk |
 | 🗑️ **Delete** | Delete both active and inactive entries |
 | 💾 **Export** | Save all entries to `emails.txt` |
+| 🔀 **Export-only mode** | List and export without deactivating or deleting |
 | 🎨 **Rich UI** | Beautiful, color-coded terminal output via the [Rich](https://github.com/Textualize/rich) library |
 
 ---
@@ -107,9 +108,19 @@ cookies = {
 
 ### 4. Run the script
 
+**Full mode** — list, export, deactivate, and delete:
+
 ```bash
 python main.py
 ```
+
+**Export-only mode** — list and export without changing anything:
+
+```bash
+python main.py --export-only
+```
+
+Aliases: `--list-only`, `--toggle`
 
 ---
 
@@ -128,8 +139,13 @@ When run, the script will:
 2. Fetch all Hide My Email entries from iCloud
 3. Display them in a formatted table in the terminal
 4. Save the full list to `emails.txt`
+
+In the default mode, it will also:
+
 5. Deactivate all active entries
 6. Delete all entries (active and inactive)
+
+With `--export-only`, steps 5–6 are skipped — your addresses remain untouched.
 
 ### `emails.txt` format
 
